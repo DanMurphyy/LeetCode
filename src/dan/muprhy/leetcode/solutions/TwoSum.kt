@@ -2,6 +2,7 @@ package dan.muprhy.leetcode.solutions
 
 class TwoSum {
     fun twoSum(nums: IntArray, target: Int): IntArray {
+
         val resultMap: HashMap<Int, Int> = hashMapOf()
 
         for (i in nums.indices) {
