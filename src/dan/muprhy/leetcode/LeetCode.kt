@@ -1,11 +1,11 @@
 package dan.muprhy.leetcode
 
-import dan.muprhy.leetcode.solutions.PalindromeNumber
+import dan.muprhy.leetcode.solutions.RomanToInteger
 
 fun main() {
 
-    val sol = PalindromeNumber()
+    val sol = RomanToInteger()
 
-    println("${sol.isPalindrome(12345)}")
+    println("${sol.romanToInt("XXVII")}")
 
 }
