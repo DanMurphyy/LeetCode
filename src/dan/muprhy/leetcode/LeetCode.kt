@@ -1,11 +1,11 @@
 package dan.muprhy.leetcode
 
-import dan.muprhy.leetcode.solutions.RomanToInteger
+import dan.muprhy.leetcode.solutions.LongestCommonPrefix
 
 fun main() {
 
-    val sol = RomanToInteger()
+    val sol = LongestCommonPrefix()
 
-    println("${sol.romanToInt("XXVII")}")
+    println(sol.longestCommonPrefix(arrayOf("flower", "flow", "flight")))
 
 }
