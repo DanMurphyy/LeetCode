@@ -1,11 +1,11 @@
 package dan.muprhy.leetcode
 
-import dan.muprhy.leetcode.solutions.LongestCommonPrefix
+import dan.muprhy.leetcode.solutions.ValidParentheses
 
 fun main() {
 
-    val sol = LongestCommonPrefix()
+    val sol = ValidParentheses()
 
-    println(sol.longestCommonPrefix(arrayOf("flower", "flow", "flight")))
+    println(sol.isValid("({[})"))
 
 }
