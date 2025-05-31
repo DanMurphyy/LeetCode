@@ -1,11 +1,12 @@
 package dan.muprhy.leetcode
 
-import dan.muprhy.leetcode.solutions.ValidParentheses
+import dan.muprhy.leetcode.solutions.Sqrt
 
 fun main() {
 
-    val sol = ValidParentheses()
+    val sol = Sqrt().mySqrt(2147395599)
 
-    println(sol.isValid("({[})"))
+    println(" result $sol ")
 
 }
+
