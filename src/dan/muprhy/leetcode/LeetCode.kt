@@ -1,10 +1,10 @@
 package dan.muprhy.leetcode
 
-import dan.muprhy.leetcode.solutions.SearchInsertPosition
+import dan.muprhy.leetcode.solutions.FistBadVersion
 
 fun main() {
 
-    val sol = SearchInsertPosition().searchInsert(intArrayOf(1, 3, 5, 6), 8)
+    val sol = FistBadVersion().firstBadVersion(8)
 
     println(" result $sol ")
 
